@@ -1,0 +1,154 @@
+@brand-blue: #38b8ff;
+@light-grey: #f5f5f5;
+@dark-blue: #00003c;
+
+@text-color: #fff;
+
+/*a, p, span, h1, h2, h3, h4, h5, h6 {
+    color: @dark-blue
+}*/
+
+.container {
+    max-width: 100%;
+}
+
+body {
+	background-color: #fff;
+	background-image: url(../resources/core/images/gradient.jpg);
+	background-position: left top;
+	background-size: cover
+}
+.bigdiv{
+    	background-image: url(../resources/core/images/gradient.jpg);
+
+}
+
+a {
+	text-decoration: none;
+
+	&:hover {
+	    text-decoration: none;
+		color: @brand-blue;
+	}
+}
+
+.navbar {
+	background-color: rgba(255, 255, 255, 1.0);
+}
+
+.margin {
+	margin-left: 32px;
+	margin-right: 32px;
+}
+
+.footer {
+	/*position: absolute;
+	bottom: 0px;*/
+	width: 100%;
+	background-color: rgba(10, 10, 10, 0.7);
+	padding: 5px
+}
+
+.navbar-element {
+    cursor: pointer;
+    border-radius: 2px;
+	padding: 5px 20px 5px 20px;
+	/*margin: 10px;*/
+	color: #000;
+
+	&:hover {
+	    background-color: @brand-blue;
+	    color: #000;
+	}
+}
+
+.footerElements {
+    font-size: 70%;
+    color:#fff;
+	.margin
+}
+
+#centerCard {
+	position: absolute;
+	top: 45%;
+	left: 25%;
+	width: 50%;
+	min-width: 360px;
+	min-height: 242px;
+}
+
+#catagory {
+    background: rgba(255, 255, 255, 0.0);
+    border: none;
+    position: relative;
+    display: block;
+    outline: none;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    color: @dark-blue;
+
+    ::-webkit-input-placeholder { color: #101010;}
+    :-moz-placeholder { color: #101010; }
+    ::-moz-placeholder { color: #101010; }
+    :-ms-input-placeholder { color: #101010; }
+}
+#department {
+    background: rgba(255, 255, 255, 0.0);
+    border: none;
+    position: relative;
+    display: block;
+    outline: none;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    color: @dark-blue;
+
+    ::-webkit-input-placeholder { color: #101010;}
+    :-moz-placeholder { color: #101010; }
+    ::-moz-placeholder { color: #101010; }
+    :-ms-input-placeholder { color: #101010; }
+}
+
+#experience {
+    background: rgba(255, 255, 255, 0.0);
+    border: none;
+    position: relative;
+    display: block;
+    outline: none;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    color: @dark-blue;
+
+    ::-webkit-input-placeholder { color: #101010;}
+    :-moz-placeholder { color: #101010; }
+    ::-moz-placeholder { color: #101010; }
+    :-ms-input-placeholder { color: #101010; }
+}
+#dropdown{
+      border: 0px solid #111;
+      margin-left: 180px;
+      background: transparent;
+      margin-bottom: 50px;
+      border-bottom: 1px solid #ababab;
+      width: 500px;
+      padding: 5px 35px 5px 5px;
+      font-size: 16px;
+      height: 34px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+}
+.dept{
+          background-color: transparent;
+}
+
+
+.ui-autocomplete { height: 180px; overflow-y: scroll; overflow-x: hidden;}
+
+.sidebar-list { height: 700px;
+                overflow-y: scroll;
+                overflow-x: hidden;
+
+                }
